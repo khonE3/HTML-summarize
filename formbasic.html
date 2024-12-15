@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form TEST</title>
+    <link rel="stylesheet" href="formbasic.css">
+</head>
+<body>
+
+    <button class="themetoggle">mode</button>
+    <h1>ลงทะเบียนเกม</h1>
+    <form>
+        <div>
+            <label for="IDgame">ID</label>
+            <input type="text" name="ID" placeholder="กรอกไอดี" required>
+        </div>
+
+        <div>
+            <label for="Password">Password</label>
+            <input type="password" name="password" placeholder="กรอกรหัสผ่าน" required>
+        </div>
+
+        <!-- required ต้องใส่ข้อมูล  -->
+        <div>
+            <label for="Server">Server</label>
+            <select name="server" id="" required>
+                <option value="ไทย">ไทย</option>
+                <option value="ลาว">ลาว</option>
+                <option value="พม่า">พม่า</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="Time">Time</label>
+            <input type="time">
+        </div>
+        <div>
+            <label for="FirstName">ชื่อจริง</label>
+            <input type="text" name="Fname" placeholder="ป้อนชื่อจริง">
+        </div>
+
+        <div>
+            <label for="LastName">นามสกุล</label>
+            <input type="text" name="Lname" placeholder="ป้อนนามสกุล">
+        </div>
+
+        <div>
+            <label for="Email">Email</label>
+            <input type="email" name="email" placeholder="ป้อนอีเมล" required>
+        </div>
+
+        <div>
+            <label for="Gender">เพศ</label>
+            <input type="radio" name="gender" value="male" checked>Male
+            <input type="radio" name="gender" value="female">Female
+        </div>
+
+        <div>
+            <label for="Age">อายุ</label>
+            <input type="number" name="age" min="13" max="99" value="18">
+            <!-- ใส่ readonly เพื่อไม่ให้แก้ไข -->
+        </div>
+
+        <div>
+            <label for="Birthday">วันเกิด</label>
+            <input type="date" name="birthday">
+        </div>
+
+        <div>
+            <label for="Color">สีที่ชอบ</label>
+            <input type="color" name="color">
+        </div>
+
+        <div>
+            <label for="Address">ที่อยู่</label>
+            <textarea name="ที่อยู่" cols="18" rows="4" placeholder="ป้อนที่อยู่"></textarea>
+        </div>
+
+        <div>
+            <label for="File" required>แนบไฟล์รูปยืนยันใบหน้า</label>
+            <input type="file">
+        </div>
+
+        <div>
+            <label for="URL">LINK facebook</label>
+            <input type="url">
+        </div>
+        <div>
+            <label for="Star">ระดับความพึงพอใจ</label>
+            <input type="range" name="star">
+        </div>
+
+        <div>
+            <input type="submit" value="ส่งข้อมูล">
+            <button type="reset">ล้างข้อมูล</button>
+        </div>
+
+    </form>
+
+
+
+
+
+    <script src="ES6.js"></script>
+
+
+</body>
+</html>
