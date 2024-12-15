@@ -1,47 +1,13 @@
 # HTML-summarize
-All command HTML
+All commands HTML
 
 ## 🚀 Fisrt Open and Run basic.HTML
-Open and ru file ->basic.HTML
+Open and run file --->basic.HTML
 
 
 ## Usage/Examples
 
-```<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learn HTML</title>
-
-    <style>
-
-        table, td, th{
-            border: 1px solid rgb(255, 3, 213);
-            border-collapse: collapse;
-        }
-
-        .box{
-            background-color: brown;
-            margin: 10px;
-            padding: 15px;
-        }
-
-        .center{
-            text-align: center;
-        }
-
-        #MyID{
-            width: 200px;
-            height: 100px;
-            background-color:blueviolet
-        }
-
-    </style>
-
-</head>
-<body>
+```
 
     <!-- Basic Tag -->  
 
@@ -284,8 +250,6 @@ Open and ru file ->basic.HTML
         <source src="#" type="audio/mp3">
     </audio>
 
-</body>
-</html>
 
 ```
 
